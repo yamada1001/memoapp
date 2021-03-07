@@ -7,10 +7,10 @@ memo_type = gets.to_i
 # //続きを書いていきましょう！！(ifで条件分岐)
 
 if memo_type == 1
-    puts "拡張子を除いたファイルを入力してください"
+    puts "拡張子を除いたファイルを入力"
     file_name = gets.chomp + ".csv"
-    puts "メモしたい内容を記入してください"
-    puts "完了したらCtrl + Dをおします"
+    puts "メモしたい内容"
+    puts "Ctrl + Dで完了"
     array = []
     
     while sentence = gets
@@ -22,10 +22,10 @@ if memo_type == 1
     end
 
 elsif memo_type == 2
-    puts "既存のメモの拡張子を除いたファイル名を入力してください"
+    puts "既存のメモの拡張子を除いたファイル名を入力"
     file_name = gets.chomp + ".csv"
-    puts "追記したい内容を記入してください"
-    puts "完了したらCtrl + Dをおします"
+    puts "追加したい内容を記入"
+    puts "Ctrl + Dで完了"
     
     array = []
 
